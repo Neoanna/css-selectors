@@ -1,0 +1,99 @@
+.synopsis em {
+    color: red;
+    font-style: italic;
+}
+
+h1 em {
+    font-style: italic;
+}
+
+.article h2 .subheading em {
+    font-style: italic;
+}
+
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 98, 139);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 4px solid rgb(241, 91, 91);
+    border-radius: 8px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+/*vv I love this vv*/
+.button:hover,
+.button:visited:hover {
+    color: crimson;
+    background-color: pink;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: #67f2ff;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #7dffad;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: #3ec5ff;
+}
+
+.page {
+    width: 700px;
+    margin: 0 auto;
+}
+
+a.link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a.visited {
+    color: blueviolet;
+}
+
+a.hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a.active {
+    color: green;
+}
+
+a:visited:hover {
+    color: blue;
+}
+
+a:visited:active {
+    color: fuchsia;
+}
+
+p:last-of-type {
+    margin-bottom: 50px
+}
+
+p:first-of-type {
+    color: #679e6b;
+    font-style: italic;
+}
+
+.page>p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+
+#button-2{
+    color:white;
+}
