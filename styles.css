@@ -1,6 +1,6 @@
 .synopsis em {
     color: red;
-    font-style: italic;
+    font-style: normal;
 }
 
 h1 em {
@@ -33,10 +33,14 @@ h1 em {
     background-color: pink;
 }
 
+#button-2{
+    background-color: hsl(125, 100%, 85%);
+}
+
 .call-to-action:link,
 .call-to-action:visited {
     font-style: italic;
-    background-color: #67f2ff;
+    background-color: #fdff93;
 }
 
 .call-to-action:hover,
@@ -69,11 +73,11 @@ a.hover {
 }
 
 a.active {
-    color: green;
+    color: rgb(255, 0, 242);
 }
 
 a:visited:hover {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 a:visited:active {
@@ -90,10 +94,13 @@ p:first-of-type {
 }
 
 .page>p:first-of-type {
-    color: #7E8184;
+    color: #13744a;
     font-style: italic;
 }
 
-#button-2{
-    color:white;
+#button-2,
+#button-3,
+#checkout-button,
+#menu-bar-call-to-action{
+    color:rgb(255, 0, 0);
 }
